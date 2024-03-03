@@ -20,3 +20,17 @@
 ### Concepts
 * Big-O Notation
 * Recursion
+
+
+## Folder structure for quick navigation
+
+* [daily_leetcode](/daily_leetcode)
+* [dsa](/dsa)
+* [elements of programming interviews](/elements_of_programming_interviews)
+* [leetcode_100](/leetcode_100/)
+* [tech interview pro](/TechInterviewPro/)
+
+
+
+
+

@@ -29,6 +29,7 @@
 * [elements of programming interviews](/elements_of_programming_interviews)
 * [leetcode_100](/leetcode_100/)
 * [tech interview pro](/TechInterviewPro/)
+* [python 101](python_101)
 
 
 

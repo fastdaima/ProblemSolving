@@ -50,4 +50,26 @@ class Solution:
         
 
 
+ # optmised solution
+class Solution:
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
         
+        right_prefix = [0 for o in range(len(nums))]
+        left_prefix = [0 for o in range(len(nums))]
+
+        right_prefix[0] = 1
+        left_prefix[-1] = 1
+
+        for i in range(1, len(nums)):
+            right_prefix[i] = nums[i-1] * right_prefix[i-1]
+
+        for i in range(len(nums)-2,-1,-1):
+            left_prefix[i] = left_prefix[i+1] * nums[i+1]
+
+        print(right_prefix)
+        print(left_prefix)
+
+        out = [a*b for a,b in zip(left_prefix, right_prefix)]
+        return out
+                
+       

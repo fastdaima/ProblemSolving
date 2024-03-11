@@ -42,7 +42,12 @@ class Solution:
         return 0
 
 
-
+"""
+# find the pivot point
+        # a is a pivot point, 
+        #     if value increases from pivot to the right most value
+        #     also value increases from left to pivot
+"""
 
 
 

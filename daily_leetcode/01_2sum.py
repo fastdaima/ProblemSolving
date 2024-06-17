@@ -5,6 +5,7 @@
 # then we can reiterate the nums array, checking whether the value is in hash set and the index is different 
 # if it satisfies the constraints, both the indexes are returned.
 # 
+from typing import List 
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:

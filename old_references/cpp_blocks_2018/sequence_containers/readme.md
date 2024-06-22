@@ -1,0 +1,1 @@
+Data Structures which can be accessed in a sequential manner

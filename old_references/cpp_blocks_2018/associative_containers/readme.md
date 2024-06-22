@@ -1,0 +1,1 @@
+implement sorted data structures that can be quickly searched (O (log n))
